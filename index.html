@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#0C1216">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#0C1216">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Portfolio Website</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Fajar Julyana</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt nav__icon'></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">About</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book-alt nav__icon'></i>
+                                <span class="nav__name">Certificate</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>
+                                <span class="nav__name">Portfolio</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contactme" class="nav__link">
+                                <i class='bx bx-message-square-detail nav__icon'></i>
+                                <span class="nav__name">Contactme</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- <img src="assets/img/profile.png" alt="" class="nav__img"> -->
+            </nav>
+        </header>
+
+        <main>
+            <!--=============== HOME ===============-->
+            <section class="section-home" id="home">
+                <h2 class="section__title box-title"></h2>
+                <div class="hero-image">
+                   <div class="hero-text">
+                   <div class="profile">
+                     <img class="main-photo" src="assets/img/photo.png" alt="Fajar Julyana" >
+                   </div>
+                   <h1 class="hero-title" style="font-size:200%">I'm Fajar Julyana</h1>
+                   <p>And I'm a <span class="tiny-text" id="profession"> </span></p>
+                   <button onclick="document.getElementById('#contacts')" id="hire">Hire me</button>
+                  </div>
+                 </div>
+																				<div class="introduction-container">
+                  <h2 class="section__title box-title">Introduction</h2>
+                  <h3 class="text-margin">Hello there, I'm Fajar Julyana ~ FJ 👏 </h3>
+                  <ul class="text-margin">
+                    <li>- 👨🏻‍💻 I work freelance, on several freelance provider sites.</li>
+                    <li>- 📖 I'm currently learning everything.</li>
+                    <li>- 🔬 I'm currently taking online learning about software development at several learning provider sites.</li>
+                    <li>- 🎸 I like playing guitar and traveling by motorbike.</li>
+                 </ul>
+													     </div>
+            </section>
+
+            <!--=============== ABOUT ===============-->
+            <section class="container section section__height" id="about">
+                <h2 class="section__title box-title">About</h2>
+																	
+					
+
+            </section>
+
+            <!--=============== CERTIFICATE ===============-->
+            <section class="container section section__height" id="skills">
+                <h2 class="section__title box-title">Certificate</h2>
+																  <h3 class="section-title" style="text-align: center; padding-bottom: 73px; padding-top: 12px;"> Sololearn Certificate </h3>
+	               <div class="slideshow-container">
+																		<div class="mySlides fade">
+																		  <div class="numbertext">1 / 3</div>
+																		  <img src="assets/img/sololearn/C_certificate.jpg" class="image-carousel">
+																		  <div class="text">C Certificate by sololearn</div>
+																		</div>
+																		
+																		<div class="mySlides fade">
+																		  <div class="numbertext">2 / 3</div>
+																		  <img src="assets/img/sololearn/fullstack_certificate.jpg" class="image-carousel">
+																		  <div class="text">Full Stack Certificate by Sololearn</div>
+																		</div>
+																		
+																		<div class="mySlides fade">
+																		  <div class="numbertext">3 / 3</div>
+																		  <img src="assets/img/sololearn/Responsive-Web-Design_certificate.jpg" class="image-carousel">
+																		  <div class="text">Responsive web Design Certificate by Sololearn</div>
+																		</div>
+																		
+																		<a class="prev" onclick="plusSlides(-1)">❮</a>
+																		<a class="next" onclick="plusSlides(1)">❯</a>
+																		
+																		</div>
+																		<br>
+																		
+																		<div style="text-align:center">
+																		  <span class="dot" onclick="currentSlide(1)"></span> 
+																		  <span class="dot" onclick="currentSlide(2)"></span> 
+																		  <span class="dot" onclick="currentSlide(3)"></span> 
+																		</div>
+            </section>
+
+            <!--=============== PORTFOLIO ===============-->
+            <section class="container section section__height" id="portfolio">
+                <h2 class="section__title box-title	">Portfolio</h2>
+                <embed type="text/html" src="assets/cv/portfolio.html"  width="100%" height="100%">
+
+            </section>
+
+            <!--=============== CONTACTME ===============-->
+            <section class="footer container section section__height" id="contactme">
+                <h2 class="section__title box-title">Contactme</h2>
+                <ul style="padding-top: 70px;">
+                  <li><a class = "footerImage nav__link" href="https://www.instagram.com/fajar.julyana/"><i class='bx bxl-instagram bx-lg bx-tada-hover' ></i></a></li>
+																					<li><a class = "footerImage nav__link" href="https://linkedin.com/in/fajar-julyana-753a62239"><i class='bx bxl-linkedin bx-lg bx-tada-hover' ></i></a></li>
+																					<li><a class = "footerImage nav__link" href="https://github.com/fajarjulyana"><i class='bx bxl-github bx-lg bx-tada-hover' ></i></a></li>
+                  <li><a class = "footerImage nav__link" href="mailto: fajarjulyana1@gmail.com"><i class='bx bxl-gmail bx-lg bx-tada-hover' ></i></a></li>
+             				</ul>
+            </section>
+        </main>
+        
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
