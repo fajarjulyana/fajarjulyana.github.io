@@ -5,9 +5,10 @@ Example Personal Landing page
 - Responsive Landing Page
 
 ## Screenshot 
-### Web
+- Web
 <img src="web.jpg" width="480">
-### mobile
+
+- Mobile
 <img src="mobile.jpg" width="320">
 
 # Landing Page
