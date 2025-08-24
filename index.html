@@ -1,1 +1,287 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fajar Julyana - Entrepreneur & Full-Stack Developer</title>
+    <meta name="description" content="Portfolio Fajar Julyana - Entrepreneur, programmer, dan musisi dari Lembang, Jawa Barat. Membangun solusi digital dan mengembangkan bisnis UMKM.">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Fajar Julyana - Entrepreneur & Full-Stack Developer">
+    <meta property="og:description" content="Portfolio Fajar Julyana - Entrepreneur, programmer, dan musisi dari Lembang, Jawa Barat.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://fajarjulyana.github.io/">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#home">Fajar Julyana</a>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" data-translate="home">Beranda</a>
+                <a href="#about" class="nav-link" data-translate="about">Tentang</a>
+                <a href="#experience" class="nav-link" data-translate="experience">Pengalaman</a>
+                <a href="#skills" class="nav-link" data-translate="skills">Keahlian</a>
+                <a href="#projects" class="nav-link" data-translate="projects">Proyek</a>
+                <a href="#contact" class="nav-link" data-translate="contact">Kontak</a>
+            </div>
+
+            <div class="nav-actions">
+                <div class="language-switcher">
+                    <button class="language-btn" id="language-btn">
+                        <span id="current-language">ID</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-dropdown" id="language-dropdown">
+                        <button class="language-option" data-lang="id">ID - Indonesia</button>
+                        <button class="language-option" data-lang="en">EN - English</button>
+                        <button class="language-option" data-lang="ru">RU - Русский</button>
+                        <button class="language-option" data-lang="ar">AR - العربية</button>
+                        <button class="language-option" data-lang="su">SU - Sunda</button>
+                    </div>
+                </div>
+                
+                <button class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span data-translate="heroTitle">Halo, Saya Fajar Julyana</span>
+                </h1>
+                <p class="hero-subtitle" data-translate="heroSubtitle">
+                    Entrepreneur dan Full-Stack Developer dari Lembang, Jawa Barat. Membangun solusi digital dan mengembangkan bisnis.
+                </p>
+                
+                <div class="hero-labels">
+                    <span class="hero-label" data-translate="entrepreneurLabel">Entrepreneur</span>
+                    <span class="hero-label" data-translate="programmerLabel">Programmer</span>
+                    <span class="hero-label" data-translate="musicianLabel">Musisi</span>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary" data-translate="getInTouch">
+                        Hubungi Saya
+                    </a>
+                    <a href="#projects" class="btn btn-secondary" data-translate="viewProjects">
+                        Lihat Proyek
+                    </a>
+                </div>
+                
+                <div class="hero-status">
+                    <div class="status-indicator"></div>
+                    <span data-translate="availableForProjects">Tersedia untuk proyek</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="aboutTitle">Tentang Saya</h2>
+                <p class="section-subtitle" data-translate="aboutSubtitle">
+                    Lahir di Lembang tanggal 30 Juli 1999, saya adalah seorang entrepreneur dan developer yang passionate dengan musik dan teknologi.
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-card">
+                    <h3 data-translate="personalBackground">Latar Belakang Pribadi</h3>
+                    <ul>
+                        <li data-translate="born">Lahir: 30 Juli 1999 di Lembang, Jawa Barat</li>
+                        <li data-translate="education">Pendidikan: SMK Bina Wisata Lembang - Rekayasa Perangkat Lunak (2017)</li>
+                        <li data-translate="currentBusiness">Bisnis Saat Ini: Fajar Mandiri Store - Layanan Fotokopi & Digital</li>
+                    </ul>
+                </div>
+                
+                <div class="about-card">
+                    <h3 data-translate="interestsHobbies">Minat & Hobi</h3>
+                    <div class="interests-grid">
+                        <div class="interest-item">
+                            <i class="fas fa-guitar"></i>
+                            <span data-translate="guitarPlaying">Bermain Gitar</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-microchip"></i>
+                            <span data-translate="electronics">Elektronik</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-code"></i>
+                            <span data-translate="coding">Coding</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-book"></i>
+                            <span data-translate="reading">Membaca</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-card">
+                    <h3 data-translate="missionVision">Misi & Visi</h3>
+                    <p data-translate="missionText">
+                        Menghubungkan teknologi dengan bisnis, menciptakan solusi digital yang memberdayakan usaha kecil dan menengah sambil membangun ekosistem bisnis lokal yang berkelanjutan di Lembang dan sekitarnya.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="experienceTitle">Perjalanan Profesional</h2>
+                <p class="section-subtitle" data-translate="experienceSubtitle">
+                    Jalur karir dan pengalaman profesional saya
+                </p>
+            </div>
+            
+            <div class="timeline" id="experience-timeline">
+                <!-- Experience items will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="skillsTitle">Keahlian & Keahlian</h2>
+                <p class="section-subtitle" data-translate="skillsSubtitle">
+                    Teknologi dan keahlian yang saya kerjakan
+                </p>
+            </div>
+            
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="projectsTitle">Proyek Unggulan</h2>
+                <p class="section-subtitle" data-translate="projectsSubtitle">
+                    Proyek perangkat lunak nyata dari repositori GitHub saya
+                </p>
+            </div>
+            
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-translate="contactTitle">Mari Terhubung</h2>
+                <p class="section-subtitle" data-translate="contactSubtitle">
+                    Siap untuk berkolaborasi atau mendiskusikan proyek berikutnya? Hubungi saya melalui salah satu saluran ini.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3 data-translate="whatsapp">WhatsApp</h3>
+                        <p data-translate="businessLabel">Bisnis</p>
+                        <a href="https://wa.me/6281804411937" class="contact-link" target="_blank">
+                            +62 818-0441-1937
+                        </a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3 data-translate="location">Lokasi</h3>
+                        <p>Lembang, Jawa Barat</p>
+                        <span class="contact-link">Indonesia</span>
+                    </div>
+                </div>
+                
+                <div class="social-section">
+                    <h3 data-translate="followMe">Ikuti Saya Online</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/fajarjulyana" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span data-translate="github">GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/fajarjulyana" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span data-translate="linkedin">LinkedIn</span>
+                        </a>
+                        <a href="https://instagram.com/fajarjulyana" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                            <span data-translate="instagram">Instagram</span>
+                        </a>
+                        <a href="https://youtube.com/@fajarjulyana" class="social-link" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                            <span data-translate="youtube">YouTube</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="availability-card">
+                    <div class="availability-status">
+                        <div class="status-indicator"></div>
+                        <h3 data-translate="openForOpportunities">Terbuka untuk Peluang</h3>
+                    </div>
+                    <p data-translate="opportunitiesDesc">
+                        Saat ini tersedia untuk proyek freelance, kolaborasi, dan kemitraan bisnis. Mari buat sesuatu yang luar biasa bersama!
+                    </p>
+                    <a href="https://wa.me/6281804411937" class="btn btn-primary" target="_blank" data-translate="startConversation">
+                        Mulai Percakapan
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Fajar Julyana</h3>
+                    <p data-translate="footerTagline">Entrepreneur • Developer • Musisi</p>
+                </div>
+                <div class="footer-copyright">
+                    <p data-translate="copyright">© 2025 Fajar Julyana. Hak cipta dilindungi undang-undang.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
 
