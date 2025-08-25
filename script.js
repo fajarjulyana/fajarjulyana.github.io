@@ -8,21 +8,21 @@ const experienceData = [
     id: 'fajarmandiri',
     titleKey: 'fajarmandiriOwner',
     descKey: 'fajarmandiriDesc',
-    period: '2020 - present',
+    period: '2025 - present',
     skills: ['entrepreneurship', 'businessManagement', 'customerService']
   },
   {
     id: 'qware',
     titleKey: 'qwareFounder',
     descKey: 'qwareDesc',
-    period: '2021 - present',
+    period: '2024 - present',
     skills: ['softwareDevelopment', 'umkmSolutions', 'productManagement']
   },
   {
     id: 'ptkuassa',
     titleKey: 'ptKuassaApplication',
     descKey: 'ptKuassaDesc',
-    period: '2021',
+    period: '2025',
     skills: ['audioProgramming', 'juceFramework', 'professionalGrowth']
   },
   {
@@ -36,7 +36,7 @@ const experienceData = [
     id: 'hurtrock',
     titleKey: 'hurtrockMusic',
     descKey: 'hurtrockDesc',
-    period: '2018 - 2019',
+    period: '2022 - 2023',
     skills: ['operations', 'musicIndustry', 'organization']
   }
 ];
